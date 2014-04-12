@@ -2,15 +2,23 @@
 <html ng-app="quests_app">
     <head>
         <title>Test page</title>
-        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular.min.js"></script>
-        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular-route.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.0-beta.3/angular.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.0-beta.3/angular-route.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
     </head>
     <body ng-controller="MainCtrl">
 
-        <!-- Component Scripts -->
+        <div ng-view></div>
+
+        <!-- SCRIPTS -->
+        <!-- Main Script -->
         <script src="js/quests_app.js"></script>
+
+        <!-- Services -->
         <script src="js/services/quests_api.js"></script>
-        <script src="js/controllers/TestCtrl.js"></script>
+
+        <!-- Controllers -->
+        <script src="js/controllers/MainCtrl.js"></script>
+        <script src="js/controllers/QuestPageCtrl.js"></script>
     </body>
 </html>

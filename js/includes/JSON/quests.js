@@ -1,5 +1,5 @@
 {
-    "units": [
+    "quests": [
       {
         "scientist_prep": "sp",
         "name": "na",
