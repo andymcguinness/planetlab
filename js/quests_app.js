@@ -1,0 +1,1 @@
+var quests_app = angular.module('quests_app', []);
