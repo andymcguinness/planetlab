@@ -3,6 +3,7 @@
         <h1>Search Result For: {{search}}</h1>
 
         <ul id="grid">
+            <li ng-repeat="quest in quests" data-filters="{{quest.['science types']}}">{{quest.name}}</li>
         </ul>
     </div>
     <div class="search-sidebar"></div>

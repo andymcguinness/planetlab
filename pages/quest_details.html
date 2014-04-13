@@ -1,3 +1,12 @@
 <div ng-controller="QuestPageCtrl">
-    <p>Quest Name: {{questInfo["name"]}}</p>
+    <div class="quest-wrapper">
+        <div class="organziation-wrapper">
+            <div class="organization-box">
+                <div class="organization-image">
+                    <img ng-src="{{questInfo['organization_img']}}">
+                    <p>{{questInfo['organization_descrip']}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
