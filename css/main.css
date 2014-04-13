@@ -1,0 +1,84 @@
+body {
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 0;
+}
+
+/* ALL PAGE STYLES */
+.main-header{
+    width: 100%;
+    display: block;
+    float: left;
+    margin: 0;
+}
+.main-header .left {
+    float: left;
+    display: inline-block;
+}
+.main-header .left h1 {
+    margin: 0;
+    font-size: 20px;
+}
+.main-header .right {
+    float: left;
+    display: inline-block;
+}
+.main-header .right div {
+    display: inline;
+    text-align: right;
+}
+
+.content-header {
+    width: 100%;
+    display: block;
+    float: left;
+    background: #D5E2F3;
+    margin: 0;
+}
+.content-header .left {
+    display: inline-block;
+    float: left;
+}
+.content-header .middle {
+    display: inline-block;
+    float: left;
+}
+.content-header .middle ul.main-nav {
+    width: 100%;
+    display: inline-block;
+    float: left;
+    list-style: none;
+    padding-left: 0;
+}
+.content-header .middle ul.main-nav li {
+    float: left;
+    width: auto;
+    display: inline;
+}
+.content-header .right {
+    display: inline-block;
+    float: left;
+}
+
+/* SEARCH PAGE STYLES */
+.search-content-wrapper {
+    display: block;
+    float: left;
+    width: 100%;
+}
+.search-content-wrapper .search-main-content {
+    width: 70%;
+    float: left;
+    display: inline-block;
+}
+.search-content-wrapper .search-sidebar {
+    width: 30%;
+    float: left;
+    display: inline-block;
+}
+
+#grid {
+    display: none;
+    opacity: 0;
+}
