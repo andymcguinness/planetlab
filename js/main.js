@@ -22,4 +22,6 @@ var mixArgs = {
   perspectiveDistance: '3000',
   perspectiveOrigin: '50% 50%',
   animateGridList: true
-};
+}
+
+$('#grid').mixitup(mixArgs);
