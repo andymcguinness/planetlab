@@ -1,5 +1,5 @@
-quests_app.controller('StructuredSearchCtrl', ['$scope', '$location', function($scope, $location) {
+quests_app.controller('StructuredSearchCtrl', ['$scope', '$rootScope', '$location', function($scope, $rootScope, $location) {
     $scope.search = Object.keys($location.search()).toString();
 
-    $scope.isLoggedIn = "true";
+    $rootScope.isLoggedIn = "true";
 }]);

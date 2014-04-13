@@ -1,3 +1,3 @@
-quests_app.controller('MainCtrl', ['$scope', function($scope) {
-    $scope.isLoggedIn = "true";
+quests_app.controller('MainCtrl', ['$scope', '$rootScope', function($scope, $rootScope) {
+    $rootScope.isLoggedIn = "false";
 }]);
